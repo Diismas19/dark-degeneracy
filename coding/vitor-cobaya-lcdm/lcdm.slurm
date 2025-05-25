@@ -2,7 +2,7 @@
 #SBATCH --job-name=vitor-cobaya-lcdm				#Nome job com o nome do aluno/prof
 #SBATCH --nodes=1						#Numero de Nós
 #SBATCH --ntasks=4						#Numero total de tarefas MPI/OPENMP
-#SBATCH --partition z3-short,z1-short,ry-short			#Fila (partition) a ser utilizada
+#SBATCH --partition z3-short,ry-short			#Fila (partition) a ser utilizada
 #SBATCH --output %x-slurm_job-%j.out
 #SBATCH --error  %x-slurm_job-%j.err
 #SBATCH --cpus-per-task=8

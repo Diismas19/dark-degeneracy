@@ -1,0 +1,183 @@
+
+CondaError: Run 'conda init' before 'conda activate'
+
+/home/valerio/anaconda3/envs/vitor/lib/python3.12/site-packages/act_dr6_lenslike/act_dr6_lenslike.py:422: UserWarning: Hartlap correction to cinv: 0.9860935524652339
+  warnings.warn(f"Hartlap correction to cinv: {hartlap_correction}")
+/home/valerio/anaconda3/envs/vitor/lib/python3.12/site-packages/act_dr6_lenslike/act_dr6_lenslike.py:422: UserWarning: Hartlap correction to cinv: 0.9860935524652339
+  warnings.warn(f"Hartlap correction to cinv: {hartlap_correction}")
+/home/valerio/anaconda3/envs/vitor/lib/python3.12/site-packages/act_dr6_lenslike/act_dr6_lenslike.py:422: UserWarning: Hartlap correction to cinv: 0.9860935524652339
+  warnings.warn(f"Hartlap correction to cinv: {hartlap_correction}")
+/home/valerio/anaconda3/envs/vitor/lib/python3.12/site-packages/act_dr6_lenslike/act_dr6_lenslike.py:422: UserWarning: Hartlap correction to cinv: 0.9860935524652339
+  warnings.warn(f"Hartlap correction to cinv: {hartlap_correction}")
+[node2:139052:0:139052] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+==== backtrace (tid: 139052) ====
+ 0  /opt/ohpc/pub/mpi/ucx-ohpc/1.11.2/lib/libucs.so.0(ucs_handle_error+0x254) [0x7ff391586b94]
+ 1  /opt/ohpc/pub/mpi/ucx-ohpc/1.11.2/lib/libucs.so.0(+0x27d4c) [0x7ff391586d4c]
+ 2  /opt/ohpc/pub/mpi/ucx-ohpc/1.11.2/lib/libucs.so.0(+0x27ff8) [0x7ff391586ff8]
+ 3  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(numjac+0x573) [0x7ff387d4f3c3]
+ 4  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(evolver_ndf15+0x55c) [0x7ff387d5133c]
+ 5  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(background_solve+0x350) [0x7ff387cb29b0]
+ 6  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(background_init+0x81) [0x7ff387cb3781]
+ 7  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_try_unknown_parameters+0x289) [0x7ff387ca9239]
+ 8  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_fzerofun_1d+0x29) [0x7ff387ca9e69]
+ 9  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_fzero_ridder+0x2ed) [0x7ff387c865ad]
+10  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_find_root+0x22c) [0x7ff387caa0bc]
+11  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_shooting+0xb6b) [0x7ff387caacab]
+12  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_read_from_file+0x114) [0x7ff387cab3f4]
+13  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(+0xc1aee) [0x7ff387c4daee]
+14  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(+0xc52f5) [0x7ff387c512f5]
+15  /home/valerio/anaconda3/envs/vitor/bin/python(PyObject_Vectorcall+0x4f) [0x56178e170fcf]
+16  /home/valerio/anaconda3/envs/vitor/bin/python(+0x113f65) [0x56178e062f65]
+17  /home/valerio/anaconda3/envs/vitor/bin/python(+0x25aeec) [0x56178e1a9eec]
+18  /home/valerio/anaconda3/envs/vitor/bin/python(+0x25a9fd) [0x56178e1a99fd]
+19  /home/valerio/anaconda3/envs/vitor/bin/python(_PyObject_Call+0x123) [0x56178e18d353]
+20  /home/valerio/anaconda3/envs/vitor/bin/python(+0x114ca6) [0x56178e063ca6]
+21  /home/valerio/anaconda3/envs/vitor/bin/python(PyEval_EvalCode+0xae) [0x56178e216ece]
+22  /home/valerio/anaconda3/envs/vitor/bin/python(+0x2ecd9a) [0x56178e23bd9a]
+23  /home/valerio/anaconda3/envs/vitor/bin/python(+0x2e7f4b) [0x56178e236f4b]
+24  /home/valerio/anaconda3/envs/vitor/bin/python(+0x300bd0) [0x56178e24fbd0]
+25  /home/valerio/anaconda3/envs/vitor/bin/python(_PyRun_SimpleFileObject+0x1be) [0x56178e24f20e]
+26  /home/valerio/anaconda3/envs/vitor/bin/python(_PyRun_AnyFileObject+0x44) [0x56178e24eee4]
+27  /home/valerio/anaconda3/envs/vitor/bin/python(Py_RunMain+0x2f2) [0x56178e247f42]
+28  /home/valerio/anaconda3/envs/vitor/bin/python(Py_BytesMain+0x37) [0x56178e1ff7e7]
+29  /lib64/libc.so.6(__libc_start_main+0xe5) [0x7ff3aac3dd85]
+30  /home/valerio/anaconda3/envs/vitor/bin/python(+0x2b0681) [0x56178e1ff681]
+=================================
+[node2:139052] *** Process received signal ***
+[node2:139052] Signal: Segmentation fault (11)
+[node2:139052] Signal code:  (-6)
+[node2:139052] Failing at address: 0x3ed00021f2c
+[node2:139052] [ 0] /lib64/libpthread.so.0(+0x12cf0)[0x7ff3ab764cf0]
+[node2:139052] [ 1] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(numjac+0x573)[0x7ff387d4f3c3]
+[node2:139052] [ 2] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(evolver_ndf15+0x55c)[0x7ff387d5133c]
+[node2:139052] [ 3] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(background_solve+0x350)[0x7ff387cb29b0]
+[node2:139052] [ 4] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(background_init+0x81)[0x7ff387cb3781]
+[node2:139052] [ 5] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_try_unknown_parameters+0x289)[0x7ff387ca9239]
+[node2:139052] [ 6] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_fzerofun_1d+0x29)[0x7ff387ca9e69]
+[node2:139052] [ 7] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_fzero_ridder+0x2ed)[0x7ff387c865ad]
+[node2:139052] [ 8] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_find_root+0x22c)[0x7ff387caa0bc]
+[node2:139052] [ 9] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_shooting+0xb6b)[0x7ff387caacab]
+[node2:139052] [10] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_read_from_file+0x114)[0x7ff387cab3f4]
+[node2:139052] [11] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(+0xc1aee)[0x7ff387c4daee]
+[node2:139052] [12] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(+0xc52f5)[0x7ff387c512f5]
+[node2:139052] [13] /home/valerio/anaconda3/envs/vitor/bin/python(PyObject_Vectorcall+0x4f)[0x56178e170fcf]
+[node2:139052] [14] /home/valerio/anaconda3/envs/vitor/bin/python(+0x113f65)[0x56178e062f65]
+[node2:139052] [15] /home/valerio/anaconda3/envs/vitor/bin/python(+0x25aeec)[0x56178e1a9eec]
+[node2:139052] [16] /home/valerio/anaconda3/envs/vitor/bin/python(+0x25a9fd)[0x56178e1a99fd]
+[node2:139052] [17] /home/valerio/anaconda3/envs/vitor/bin/python(_PyObject_Call+0x123)[0x56178e18d353]
+[node2:139052] [18] /home/valerio/anaconda3/envs/vitor/bin/python(+0x114ca6)[0x56178e063ca6]
+[node2:139052] [19] /home/valerio/anaconda3/envs/vitor/bin/python(PyEval_EvalCode+0xae)[0x56178e216ece]
+[node2:139052] [20] /home/valerio/anaconda3/envs/vitor/bin/python(+0x2ecd9a)[0x56178e23bd9a]
+[node2:139052] [21] /home/valerio/anaconda3/envs/vitor/bin/python(+0x2e7f4b)[0x56178e236f4b]
+[node2:139052] [22] /home/valerio/anaconda3/envs/vitor/bin/python(+0x300bd0)[0x56178e24fbd0]
+[node2:139052] [23] /home/valerio/anaconda3/envs/vitor/bin/python(_PyRun_SimpleFileObject+0x1be)[0x56178e24f20e]
+[node2:139052] [24] /home/valerio/anaconda3/envs/vitor/bin/python(_PyRun_AnyFileObject+0x44)[0x56178e24eee4]
+[node2:139052] [25] /home/valerio/anaconda3/envs/vitor/bin/python(Py_RunMain+0x2f2)[0x56178e247f42]
+[node2:139052] [26] /home/valerio/anaconda3/envs/vitor/bin/python(Py_BytesMain+0x37)[0x56178e1ff7e7]
+[node2:139052] [27] /lib64/libc.so.6(__libc_start_main+0xe5)[0x7ff3aac3dd85]
+[node2:139052] [28] /home/valerio/anaconda3/envs/vitor/bin/python(+0x2b0681)[0x56178e1ff681]
+[node2:139052] *** End of error message ***
+--------------------------------------------------------------------------
+prterun noticed that process rank 3 with PID 139052 on node node2 exited on
+signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+
+real	627m24.673s
+user	1515m52.930s
+sys	5m22.919s
+/home/valerio/anaconda3/envs/vitor/lib/python3.12/site-packages/act_dr6_lenslike/act_dr6_lenslike.py:422: UserWarning: Hartlap correction to cinv: 0.9860935524652339
+  warnings.warn(f"Hartlap correction to cinv: {hartlap_correction}")
+/home/valerio/anaconda3/envs/vitor/lib/python3.12/site-packages/act_dr6_lenslike/act_dr6_lenslike.py:422: UserWarning: Hartlap correction to cinv: 0.9860935524652339
+  warnings.warn(f"Hartlap correction to cinv: {hartlap_correction}")
+/home/valerio/anaconda3/envs/vitor/lib/python3.12/site-packages/act_dr6_lenslike/act_dr6_lenslike.py:422: UserWarning: Hartlap correction to cinv: 0.9860935524652339
+  warnings.warn(f"Hartlap correction to cinv: {hartlap_correction}")
+/home/valerio/anaconda3/envs/vitor/lib/python3.12/site-packages/act_dr6_lenslike/act_dr6_lenslike.py:422: UserWarning: Hartlap correction to cinv: 0.9860935524652339
+  warnings.warn(f"Hartlap correction to cinv: {hartlap_correction}")
+[node2:3637276:0:3637276] Caught signal 11 (Segmentation fault: Sent by the kernel at address (nil))
+==== backtrace (tid:3637276) ====
+ 0  /opt/ohpc/pub/mpi/ucx-ohpc/1.11.2/lib/libucs.so.0(ucs_handle_error+0x254) [0x7fb268c32b94]
+ 1  /opt/ohpc/pub/mpi/ucx-ohpc/1.11.2/lib/libucs.so.0(+0x27d4c) [0x7fb268c32d4c]
+ 2  /opt/ohpc/pub/mpi/ucx-ohpc/1.11.2/lib/libucs.so.0(+0x27ff8) [0x7fb268c32ff8]
+ 3  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(numjac+0x573) [0x7fb25f4ad3c3]
+ 4  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(evolver_ndf15+0x55c) [0x7fb25f4af33c]
+ 5  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(background_solve+0x350) [0x7fb25f4109b0]
+ 6  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(background_init+0x81) [0x7fb25f411781]
+ 7  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_try_unknown_parameters+0x289) [0x7fb25f407239]
+ 8  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_fzerofun_1d+0x29) [0x7fb25f407e69]
+ 9  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_fzero_ridder+0x2ed) [0x7fb25f3e45ad]
+10  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_find_root+0x22c) [0x7fb25f4080bc]
+11  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_shooting+0xb6b) [0x7fb25f408cab]
+12  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_read_from_file+0x114) [0x7fb25f4093f4]
+13  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(+0xc1aee) [0x7fb25f3abaee]
+14  /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(+0xc52f5) [0x7fb25f3af2f5]
+15  /home/valerio/anaconda3/envs/vitor/bin/python(PyObject_Vectorcall+0x4f) [0x55cd8834ffcf]
+16  /home/valerio/anaconda3/envs/vitor/bin/python(+0x113f65) [0x55cd88241f65]
+17  /home/valerio/anaconda3/envs/vitor/bin/python(+0x25aeec) [0x55cd88388eec]
+18  /home/valerio/anaconda3/envs/vitor/bin/python(+0x25a9fd) [0x55cd883889fd]
+19  /home/valerio/anaconda3/envs/vitor/bin/python(_PyObject_Call+0x123) [0x55cd8836c353]
+20  /home/valerio/anaconda3/envs/vitor/bin/python(+0x114ca6) [0x55cd88242ca6]
+21  /home/valerio/anaconda3/envs/vitor/bin/python(PyEval_EvalCode+0xae) [0x55cd883f5ece]
+22  /home/valerio/anaconda3/envs/vitor/bin/python(+0x2ecd9a) [0x55cd8841ad9a]
+23  /home/valerio/anaconda3/envs/vitor/bin/python(+0x2e7f4b) [0x55cd88415f4b]
+24  /home/valerio/anaconda3/envs/vitor/bin/python(+0x300bd0) [0x55cd8842ebd0]
+25  /home/valerio/anaconda3/envs/vitor/bin/python(_PyRun_SimpleFileObject+0x1be) [0x55cd8842e20e]
+26  /home/valerio/anaconda3/envs/vitor/bin/python(_PyRun_AnyFileObject+0x44) [0x55cd8842dee4]
+27  /home/valerio/anaconda3/envs/vitor/bin/python(Py_RunMain+0x2f2) [0x55cd88426f42]
+28  /home/valerio/anaconda3/envs/vitor/bin/python(Py_BytesMain+0x37) [0x55cd883de7e7]
+29  /lib64/libc.so.6(__libc_start_main+0xe5) [0x7fb2821e7d85]
+30  /home/valerio/anaconda3/envs/vitor/bin/python(+0x2b0681) [0x55cd883de681]
+=================================
+[node2:3637276] *** Process received signal ***
+[node2:3637276] Signal: Segmentation fault (11)
+[node2:3637276] Signal code:  (-6)
+[node2:3637276] Failing at address: 0x3ed0037801c
+[node2:3637276] [ 0] /lib64/libpthread.so.0(+0x12cf0)[0x7fb282d0ecf0]
+[node2:3637276] [ 1] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(numjac+0x573)[0x7fb25f4ad3c3]
+[node2:3637276] [ 2] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(evolver_ndf15+0x55c)[0x7fb25f4af33c]
+[node2:3637276] [ 3] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(background_solve+0x350)[0x7fb25f4109b0]
+[node2:3637276] [ 4] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(background_init+0x81)[0x7fb25f411781]
+[node2:3637276] [ 5] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_try_unknown_parameters+0x289)[0x7fb25f407239]
+[node2:3637276] [ 6] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_fzerofun_1d+0x29)[0x7fb25f407e69]
+[node2:3637276] [ 7] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_fzero_ridder+0x2ed)[0x7fb25f3e45ad]
+[node2:3637276] [ 8] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_find_root+0x22c)[0x7fb25f4080bc]
+[node2:3637276] [ 9] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_shooting+0xb6b)[0x7fb25f408cab]
+[node2:3637276] [10] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(input_read_from_file+0x114)[0x7fb25f4093f4]
+[node2:3637276] [11] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(+0xc1aee)[0x7fb25f3abaee]
+[node2:3637276] [12] /home/valerio/Vitor/cobaya/class/build/lib.linux-x86_64-cpython-312/classy.cpython-312-x86_64-linux-gnu.so(+0xc52f5)[0x7fb25f3af2f5]
+[node2:3637276] [13] /home/valerio/anaconda3/envs/vitor/bin/python(PyObject_Vectorcall+0x4f)[0x55cd8834ffcf]
+[node2:3637276] [14] /home/valerio/anaconda3/envs/vitor/bin/python(+0x113f65)[0x55cd88241f65]
+[node2:3637276] [15] /home/valerio/anaconda3/envs/vitor/bin/python(+0x25aeec)[0x55cd88388eec]
+[node2:3637276] [16] /home/valerio/anaconda3/envs/vitor/bin/python(+0x25a9fd)[0x55cd883889fd]
+[node2:3637276] [17] /home/valerio/anaconda3/envs/vitor/bin/python(_PyObject_Call+0x123)[0x55cd8836c353]
+[node2:3637276] [18] /home/valerio/anaconda3/envs/vitor/bin/python(+0x114ca6)[0x55cd88242ca6]
+[node2:3637276] [19] /home/valerio/anaconda3/envs/vitor/bin/python(PyEval_EvalCode+0xae)[0x55cd883f5ece]
+[node2:3637276] [20] /home/valerio/anaconda3/envs/vitor/bin/python(+0x2ecd9a)[0x55cd8841ad9a]
+[node2:3637276] [21] /home/valerio/anaconda3/envs/vitor/bin/python(+0x2e7f4b)[0x55cd88415f4b]
+[node2:3637276] [22] /home/valerio/anaconda3/envs/vitor/bin/python(+0x300bd0)[0x55cd8842ebd0]
+[node2:3637276] [23] /home/valerio/anaconda3/envs/vitor/bin/python(_PyRun_SimpleFileObject+0x1be)[0x55cd8842e20e]
+[node2:3637276] [24] /home/valerio/anaconda3/envs/vitor/bin/python(_PyRun_AnyFileObject+0x44)[0x55cd8842dee4]
+[node2:3637276] [25] /home/valerio/anaconda3/envs/vitor/bin/python(Py_RunMain+0x2f2)[0x55cd88426f42]
+[node2:3637276] [26] /home/valerio/anaconda3/envs/vitor/bin/python(Py_BytesMain+0x37)[0x55cd883de7e7]
+[node2:3637276] [27] /lib64/libc.so.6(__libc_start_main+0xe5)[0x7fb2821e7d85]
+[node2:3637276] [28] /home/valerio/anaconda3/envs/vitor/bin/python(+0x2b0681)[0x55cd883de681]
+[node2:3637276] *** End of error message ***
+--------------------------------------------------------------------------
+prterun noticed that process rank 1 with PID 3637276 on node node2 exited on
+signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+
+real	355m35.604s
+user	873m38.936s
+sys	2m57.478s
+/home/valerio/anaconda3/envs/vitor/lib/python3.12/site-packages/act_dr6_lenslike/act_dr6_lenslike.py:422: UserWarning: Hartlap correction to cinv: 0.9860935524652339
+  warnings.warn(f"Hartlap correction to cinv: {hartlap_correction}")
+/home/valerio/anaconda3/envs/vitor/lib/python3.12/site-packages/act_dr6_lenslike/act_dr6_lenslike.py:422: UserWarning: Hartlap correction to cinv: 0.9860935524652339
+  warnings.warn(f"Hartlap correction to cinv: {hartlap_correction}")
+/home/valerio/anaconda3/envs/vitor/lib/python3.12/site-packages/act_dr6_lenslike/act_dr6_lenslike.py:422: UserWarning: Hartlap correction to cinv: 0.9860935524652339
+  warnings.warn(f"Hartlap correction to cinv: {hartlap_correction}")
+/home/valerio/anaconda3/envs/vitor/lib/python3.12/site-packages/act_dr6_lenslike/act_dr6_lenslike.py:422: UserWarning: Hartlap correction to cinv: 0.9860935524652339
+  warnings.warn(f"Hartlap correction to cinv: {hartlap_correction}")
+
+real	1601m10.447s
+user	5467m9.934s
+sys	17m24.985s
