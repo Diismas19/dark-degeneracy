@@ -1,0 +1,22 @@
+1 & 0.02 & 0.398 \pm 0.065 & SnIa IRAS & \cite{Hudson:2012gt} \\
+2 & 0.02 & 0.314 \pm 0.048 & 2MRS &  \cite{Hudson:2012gt} \\
+3 & 0.02 & 0.428 \pm 0.0465 & 6dFGS+SnIa & \cite{Huterer:2016uyq} \\
+4 & 0.1 & 0.37 \pm 0.13 & SDSS-veloc & \cite{Feix:2015dla} \\
+5 & 0.15 & 0.490 \pm 0.145 & SDSS-MGS & \cite{BOSS:2016wmc} \\
+6 & 0.17 & 0.51 \pm 0.06 & 2dFGRS & \cite{Song:2008qt} \\
+7 & 0.18 & 0.36 \pm 0.09 & GAMA & \cite{Blake:2013nif} \\
+8 & 0.25 & 0.3512 \pm 0.0583 & SDSS-LRG-200 &  \cite{Samushia:2011cs} \\
+9 & 0.25 & 0.471 \pm 0.024 & BOSS LOWZ &  \cite{Lange:2021zre} \\
+10 & 0.37 & 0.4602 \pm 0.0378  & SDSS-LRG-200 &  \cite{Samushia:2011cs} \\
+11 & 0.38 & 0.44 \pm 0.06 & GAMA & \cite{Blake:2013nif}  \\
+12 & 0.44 & 0.413 \pm 0.08 & WiggleZ & \cite{2012MNRAS.425..405B} \\
+13 & 0.59 & 0.488 \pm 0.06 & SDSS-CMASS &  \cite{BOSS:2013mwe} \\
+14 & 0.6 & 0.39 \pm 0.063 & WiggleZ &  \cite{2012MNRAS.425..405B} \\
+15 & 0.6 & 0.550 \pm 0.120 & Vipers PDR-2 &  \cite{Pezzotta:2016gbo} \\
+16 & 0.73 & 0.437 \pm 0.072 & WiggleZ & \cite{2012MNRAS.425..405B} \\ 
+17 & 0.86 & 0.48 \pm 0.1 & Vipers PDR-2 &  \cite{Pezzotta:2016gbo} \\ 
+18 & 0.978 & 0.379 \pm 0.176 & SDSS-IV eBOSS &  \cite{eBOSS:2018yfg} \\ 
+19 & 1.230 & 0.3850 \pm 0.0990 & SDSS-IV eBOSS &  \cite{eBOSS:2018yfg} \\
+20 & 1.4 &  0.482 \pm 0.116 & FastSound & \cite{Okumura:2015lvp} \\
+21 & 1.526 & 0.342 \pm  0.07 & SDSS-IV eBOSS & \cite{eBOSS:2018yfg} \\
+22 & 1.944 & 0.364 \pm 0.106 & SDSS-IV eBOSS & \cite{eBOSS:2018yfg}
