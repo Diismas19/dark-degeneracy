@@ -81,7 +81,7 @@ Our model requires modifications to the standard `CLASS` Boltzmann code. Follow 
 
 **4.1. Clone and Navigate:**
 ```bash
-git clone [https://github.com/lesgourg/class_public.git](https://github.com/lesgourg/class_public.git)
+git clone github.com/lesgourg/class_public.git
 cd class_public
 git checkout <commit_hash_or_tag> # Use the same version as above
 ```
