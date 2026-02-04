@@ -11,15 +11,19 @@ Here you will find the Markov Chain Monte Carlo (MCMC) chains generated using `c
 If you use this code or data in your research, please cite our paper:
 
 ```bibtex
-% Adicione aqui a entrada BibTeX do seu artigo quando estiver disponível no INSPIRE-HEP ou similar.
-@article{Petri:2025,
-    author = "Petri, Vitor and Marra, Valerio and von Marttens, Rodrigo",
-    title = "{Dark Degeneracy in DESI DR2: Interacting or Evolving Dark Energy?}",
-    eprint = "2508.17955",
-    archivePrefix = "arXiv",
-    primaryClass = "astro-ph.CO",
-    month = "8",
-    year = "2025"
+@article{3k93-p1n8,
+  title = {Dark degeneracy in DESI DR2 data: Interacting or evolving dark energy?},
+  author = {Petri, Vitor and Marra, Valerio and von Marttens, Rodrigo},
+  journal = {Phys. Rev. D},
+  volume = {113},
+  issue = {2},
+  pages = {023504},
+  numpages = {12},
+  year = {2026},
+  month = {Jan},
+  publisher = {American Physical Society},
+  doi = {10.1103/3k93-p1n8},
+  url = {https://link.aps.org/doi/10.1103/3k93-p1n8}
 }
 ```
 
